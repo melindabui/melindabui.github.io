@@ -6700,17 +6700,17 @@ a.close.disabled {
 }
 
 .bg-primary {
-    background-color: #e587ee !important;
+    background-color: #f310a7 !important;
 }
 
 a.bg-primary:hover,
 a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-    background-color: #e587ee !important;
+    background-color: #f310a7 !important;
 }
 
-.bg-secondary {
+# .bg-secondary {
     background-color: #e587ee !important;
 }
 
@@ -9974,7 +9974,7 @@ a.text-dark:focus {
 }
 
 .text-white-50 {
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: rgba(255, 255, 255, 0.842) !important;
 }
 
 .text-hide {
@@ -10068,7 +10068,7 @@ a.text-dark:focus {
     }
     .table-bordered th,
     .table-bordered td {
-        border: 1px solid #dee2e6 !important;
+        border: 1px solid #fff !important;
     }
     .table-dark {
         color: inherit;
