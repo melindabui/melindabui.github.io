@@ -10107,11 +10107,11 @@ hr.light {
 
 .btn-xl {
     padding: 1.25rem 2.25rem;
-    font-size: 0.85rem;
-    font-weight: 700;
+    font-size: 0.95rem;
+    font-weight: 1000;
     text-transform: uppercase;
     border: none;
-    border-radius: 10rem;
+    border-radius: 12rem;
 }
 
 .page-section {
@@ -10131,7 +10131,7 @@ hr.light {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-    color: #e22aab;
+    color: #f57ed1;
     font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
     font-size: 0.9rem;
