@@ -116,7 +116,7 @@ h1, .h1 {
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
   }
 }
 
@@ -125,7 +125,7 @@ h2, .h2 {
 }
 @media (min-width: 1200px) {
   h2, .h2 {
-    font-size: 2rem;
+    font-size: 2.25rem;
   }
 }
 
@@ -134,7 +134,7 @@ h3, .h3 {
 }
 @media (min-width: 1200px) {
   h3, .h3 {
-    font-size: 1.75rem;
+    font-size: 2.0rem;
   }
 }
 
@@ -143,16 +143,16 @@ h4, .h4 {
 }
 @media (min-width: 1200px) {
   h4, .h4 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
   }
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: 1.50rem;
 }
 
 h6, .h6 {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 p {
@@ -11685,9 +11685,10 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
 .video-container {
-  height: 500px;
-  width: 500px;
+  height: 50px;
+  width: 50px;
   overflow: fullscreen;
   position: fullscreen;
 }
@@ -11701,11 +11702,4 @@ body {
   transform: translateX(-50%) translateY(-50%);
 }
 
-/* Just styling the content of the div, the *magic* in the previous rules */
-.video-container .caption {
-  z-index: 1;
-  position: relative;
-  text-align: center;
-  color: #dc0000;
-  padding: 10px;
-}
+
