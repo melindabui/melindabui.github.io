@@ -128,13 +128,13 @@ h1,
 
 h1,
 .h1 {
-    font-size: calc(1.475rem + 1.5vw);
+    font-size: calc(1.375rem + 1.5vw);
 }
 
 @media (min-width: 1200px) {
     h1,
     .h1 {
-        font-size: 2.75rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -146,7 +146,19 @@ h2,
 @media (min-width: 1200px) {
     h2,
     .h2 {
-        font-size: 2.0rem;
+        font-size: 2rem;
+    }
+}
+
+h3,
+.h3 {
+    font-size: calc(1.3rem + 0.6vw);
+}
+
+@media (min-width: 1200px) {
+    h3,
+    .h3 {
+        font-size: 1.75rem;
     }
 }
 
@@ -11465,15 +11477,15 @@ body {
 
 .masthead h2,
 .masthead .h2 {
-    max-width: 25rem;
-    font-size: 2rem;
+    max-width: 20rem;
+    font-size: 1rem;
 }
 
 @media (min-width: 768px) {
     .masthead h1,
     .masthead .h1 {
-        font-size: 6rem;
-        line-height: 6rem;
+        font-size: 4rem;
+        line-height: 4rem;
     }
 }
 
@@ -11484,8 +11496,8 @@ body {
     }
     .masthead h1,
     .masthead .h1 {
-        font-size: 8.5rem;
-        line-height: 8.5rem;
+        font-size: 6.5rem;
+        line-height: 6.5rem;
         letter-spacing: 2.0rem;
     }
     .masthead h2,
