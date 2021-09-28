@@ -125,7 +125,7 @@ h2, .h2 {
 }
 @media (min-width: 1200px) {
   h2, .h2 {
-    font-size: 2.25rem;
+    font-size: 2.0rem;
   }
 }
 
@@ -11689,17 +11689,27 @@ body {
 .video-container {
   height: 50px;
   width: 50px;
-  overflow: fullscreen;
-  position: fullscreen;
+  overflow: relative;
+  position: relative;
 }
 
 .video-container video {
   min-width: 100%;
   min-height: 100%;
-  position: fullscreen;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
-
+video.bg-video {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  min-width: 80%;
+  min-height: 80%;
+  width: auto;
+  height: auto;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 0;
+}
 
