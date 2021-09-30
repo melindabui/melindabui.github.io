@@ -258,12 +258,6 @@ small,
     font-size: 0.875em;
 }
 
-mark,
-.mark {
-    padding: 0.1em;
-    background-color: #ffff;
-}
-
 sub,
 sup {
     position: relative;
