@@ -260,8 +260,8 @@ small,
 
 mark,
 .mark {
-    padding: 0.2em;
-    background-color: #fcf8e3;
+    padding: 0.1em;
+    background-color: #ffff;
 }
 
 sub,
@@ -11468,11 +11468,17 @@ body {
     font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 2.5rem;
     line-height: 2.5rem;
-    letter-spacing: 1.0rem;
+    letter-spacing: 0.8rem;
+    word-spacing: 2.0rem;
     background: #ffff;
     -webkit-text-fill-color: #ffff;
     -webkit-background-clip: text;
     background-clip: text;
+}
+
+mark {
+    background-color: #7C0A02;
+    color: white;
 }
 
 .masthead h2,
@@ -11504,6 +11510,7 @@ body {
     .masthead .h2 {
         max-width: 30rem;
         font-size: 1.25rem;
+        word-spacing: 2.0rem;
     }
 }
 
