@@ -11613,14 +11613,14 @@ body {
 }
 
 .tagline {
-    position: absolute;
-    color: white;
-    opacity: 0.4;
-    font-size: 2em;
+    position: relative;
+    color: darkred;
+    opacity: 0.5;
+    font-size: 1em;
     white-space: nowrap;
-    right: -120px;
-    top: 220px;
-    transform: rotate(90deg);
+    right: -150x;
+    top: 250px;
+    transform: rotate(0deg);
 }
 
 .title {
