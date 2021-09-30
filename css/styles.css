@@ -11425,7 +11425,7 @@ body {
     #mainNav.navbar-shrink .nav-link.active {
         color: #8c001a;
         outline: none;
-        border-bottom: 0.25rem solid #8c001a;
+        border-bottom: 0.25rem solid #7c7c7c;
     }
 }
 
@@ -11457,7 +11457,7 @@ body {
     font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 2.5rem;
     line-height: 2.5rem;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.0rem;
     word-spacing: 0.8rem;
     background: white;
     -webkit-text-fill-color: transparent;
@@ -11469,6 +11469,7 @@ body {
 .masthead .h2 {
     max-width: 20rem;
     font-size: 1rem;
+    letter-spacing: 0.0rem;
 }
 
 @media (min-width: 768px) {
@@ -11476,6 +11477,7 @@ body {
     .masthead .h1 {
         font-size: 4rem;
         line-height: 4rem;
+        letter-spacing: 0.0rem;
     }
 }
 
@@ -11554,7 +11556,7 @@ body {
     font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 80%;
     text-transform: uppercase;
-    letter-spacing: 0.15rem;
+    letter-spacing: 0.0rem;
     border: 0;
 }
 
@@ -11572,7 +11574,7 @@ body {
     font-size: 0.8rem;
     font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     text-transform: uppercase;
-    letter-spacing: 0.15rem;
+    letter-spacing: 0.0rem;
 }
 
 .contact-section .card hr {
