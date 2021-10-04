@@ -276,7 +276,7 @@ a {
 }
 
 a:hover {
-    color: #50817e;
+    color: #0d6efd;
 }
 
 a:not([href]):not([class]),
@@ -351,7 +351,7 @@ table {
 caption {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    color: #6c757d;
+    color: #0d6efd;
     text-align: left;
 }
 
@@ -648,7 +648,7 @@ progress {
     margin-top: -1rem;
     margin-bottom: 1rem;
     font-size: 0.875em;
-    color: #6c757d;
+    color: #0d6efd;
 }
 
 .blockquote-footer::before {
@@ -680,7 +680,7 @@ progress {
 
 .figure-caption {
     font-size: 0.875em;
-    color: #6c757d;
+    color: #0d6efd;
 }
 
 .container,
@@ -2052,7 +2052,7 @@ progress {
 .form-text {
     margin-top: 0.25rem;
     font-size: 0.875em;
-    color: #6c757d;
+    color: #0d6efd;
 }
 
 .form-control {
@@ -2100,23 +2100,23 @@ progress {
 }
 
 .form-control::-moz-placeholder {
-    color: #6c757d;
+    color: ##0d6efd;
     opacity: 1;
 }
 
 .form-control:-ms-input-placeholder {
-    color: #6c757d;
+    color: ##0d6efd;
     opacity: 1;
 }
 
 .form-control::placeholder {
-    color: #6c757d;
+    color: #0d6efd;
     opacity: 1;
 }
 
 .form-control:disabled,
 .form-control[readonly] {
-    background-color: #e9ecef;
+    background-color: #0d6efd;
     opacity: 1;
 }
 
@@ -2126,7 +2126,7 @@ progress {
     -webkit-margin-end: 0.75rem;
     margin-inline-end: 0.75rem;
     color: #212529;
-    background-color: #e9ecef;
+    background-color: #0d6efd;
     pointer-events: none;
     border-color: inherit;
     border-style: solid;
@@ -2998,7 +2998,7 @@ textarea.form-control.is-invalid {
     display: inline-block;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: #292128;
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
@@ -3136,15 +3136,18 @@ fieldset:disabled .btn {
 
 .btn-success:hover {
     color: #000;
-    background-color: #7ecbab;
-    border-color: #76c8a6;
+    background-color: ##0d6efd;
+    ;
+    border-color: #0d6efd;
 }
 
 .btn-check:focus+.btn-success,
 .btn-success:focus {
     color: #000;
-    background-color: #7ecbab;
-    border-color: #76c8a6;
+    background-color: ##0d6efd;
+    ;
+    border-color: ##0d6efd;
+    ;
     box-shadow: 0 0 0 0.25rem rgba(88, 165, 133, 0.5);
 }
 
@@ -3154,8 +3157,8 @@ fieldset:disabled .btn {
 .btn-success.active,
 .show>.btn-success.dropdown-toggle {
     color: #000;
-    background-color: #85ceb0;
-    border-color: #76c8a6;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
 }
 
 .btn-check:checked+.btn-success:focus,
@@ -3163,7 +3166,7 @@ fieldset:disabled .btn {
 .btn-success:active:focus,
 .btn-success.active:focus,
 .show>.btn-success.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.25rem rgba(88, 165, 133, 0.5);
+    box-shadow: 0 0 0 0.25rem rgba(53, 87, 236, 0.5);
 }
 
 .btn-success:disabled,
@@ -3175,22 +3178,22 @@ fieldset:disabled .btn {
 
 .btn-info {
     color: #fff;
-    background-color: #1cabc4;
-    border-color: #1cabc4;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
 }
 
 .btn-info:hover {
     color: #fff;
-    background-color: #1891a7;
-    border-color: #16899d;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
 }
 
 .btn-check:focus+.btn-info,
 .btn-info:focus {
     color: #fff;
-    background-color: #1891a7;
-    border-color: #16899d;
-    box-shadow: 0 0 0 0.25rem rgba(62, 184, 205, 0.5);
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(26, 76, 214, 0.5);
 }
 
 .btn-check:checked+.btn-info,
@@ -3199,8 +3202,10 @@ fieldset:disabled .btn {
 .btn-info.active,
 .show>.btn-info.dropdown-toggle {
     color: #fff;
-    background-color: #16899d;
-    border-color: #158093;
+    background-color: ##0d6efd;
+    ;
+    border-color: ##0d6efd;
+    ;
 }
 
 .btn-check:checked+.btn-info:focus,
@@ -3208,14 +3213,16 @@ fieldset:disabled .btn {
 .btn-info:active:focus,
 .btn-info.active:focus,
 .show>.btn-info.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.25rem rgba(62, 184, 205, 0.5);
+    box-shadow: 0 0 0 0.25rem rgba(18, 72, 218, 0.5);
 }
 
 .btn-info:disabled,
 .btn-info.disabled {
     color: #fff;
-    background-color: #1cabc4;
-    border-color: #1cabc4;
+    background-color: ##0d6efd;
+    ;
+    border-color: ##0d6efd;
+    ;
 }
 
 .btn-warning {
@@ -5031,7 +5038,7 @@ fieldset:disabled .btn {
 }
 
 .navbar-dark .navbar-text {
-    color: rgba(255, 255, 255, 0.55);
+    color: rgba(16, 35, 146, 0.55);
 }
 
 .navbar-dark .navbar-text a,
@@ -7231,7 +7238,7 @@ fieldset:disabled .btn {
 
 .link-primary:hover,
 .link-primary:focus {
-    color: #50817e;
+    color: #0d6efd;
 }
 
 .link-secondary {
@@ -7249,7 +7256,7 @@ fieldset:disabled .btn {
 
 .link-success:hover,
 .link-success:focus {
-    color: #85ceb0;
+    color: #0d6efd;
 }
 
 .link-info {
@@ -11388,20 +11395,20 @@ body {
         padding-top: 0;
         padding-bottom: 0;
         border-bottom: none;
-        background-color: transparent;
+        background-color: #fff;
         transition: background-color 0.3s ease-in-out;
     }
     #mainNav .navbar-brand {
         padding: 0.5rem 0;
-        color: rgba(255, 255, 255, 0.5);
+        color: rgba(129, 8, 8, 0.5);
     }
     #mainNav .nav-link {
         transition: none;
         padding: 2rem 1.5rem;
-        color: rgba(255, 255, 255, 0.5);
+        color: rgba(129, 8, 8, 0.5);
     }
     #mainNav .nav-link:hover {
-        color: rgba(255, 255, 255, 0.75);
+        color: rgba(129, 8, 8, 0.5);
     }
     #mainNav .nav-link:active {
         color: #fff;
@@ -11421,7 +11428,7 @@ body {
         color: #8c001a;
     }
     #mainNav.navbar-shrink .nav-link:active {
-        color: #467370;
+        color: #8c001a;
     }
     #mainNav.navbar-shrink .nav-link.active {
         color: #8c001a;
@@ -11446,8 +11453,8 @@ body {
     height: auto;
     min-height: 35rem;
     padding: 15rem 0;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%);
-    background-position: left;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/mp4/bg0.mp4");
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -11458,12 +11465,9 @@ body {
     font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 2.5rem;
     line-height: 2.5rem;
-    letter-spacing: 0.0rem;
-    word-spacing: 0.8rem;
-    background: white;
-    margin-top: 155px;
-    transition: all 0.5s ease;
-    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.8rem;
+    background: #ffff;
+    -webkit-text-fill-color: solid;
     -webkit-background-clip: text;
     background-clip: text;
 }
