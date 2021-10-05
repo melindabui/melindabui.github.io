@@ -24,7 +24,7 @@
     --bs-yellow: #e4c662;
     --bs-green: #8c001a;
     --bs-teal: #8c001a;
-    --bs-cyan: #1cabc4;
+    --bs-cyan: #517ad3;
     --bs-white: #fff;
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
@@ -40,7 +40,7 @@
     --bs-primary: #8c001a;
     --bs-secondary: #7464a1;
     --bs-success: #8c001a;
-    --bs-info: #1cabc4;
+    --bs-info: #517ad3;
     --bs-warning: #e4c662;
     --bs-danger: #a16468;
     --bs-light: #f8f9fa;
@@ -3902,7 +3902,7 @@ fieldset:disabled .btn {
 }
 
 .btn-link:hover {
-    color: #50817e;
+    color: #517ad3;
 }
 
 .btn-link:disabled,
@@ -4438,7 +4438,7 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #50817e;
+    color: #517ad3;
 }
 
 .nav-link.disabled {
@@ -5235,7 +5235,7 @@ fieldset:disabled .btn {
 }
 
 .accordion-button:not(.collapsed) {
-    color: #5a918d;
+    color: #517ad3;
     background-color: #f0f6f5;
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
@@ -5386,14 +5386,14 @@ fieldset:disabled .btn {
 
 .page-link:hover {
     z-index: 2;
-    color: #50817e;
+    color: #517ad3;
     background-color: #e9ecef;
     border-color: #dee2e6;
 }
 
 .page-link:focus {
     z-index: 3;
-    color: #50817e;
+    color: #517ad3;
     background-color: #e9ecef;
     outline: 0;
     box-shadow: 0 0 0 0.25rem rgba(100, 161, 157, 0.25);
@@ -5512,7 +5512,7 @@ fieldset:disabled .btn {
 }
 
 .alert-primary {
-    color: #3c615e;
+    color: #517ad3;
     background-color: #e0eceb;
     border-color: #d1e3e2;
 }
@@ -5532,7 +5532,7 @@ fieldset:disabled .btn {
 }
 
 .alert-success {
-    color: #3e745e;
+    color: #517ad3;
     background-color: #e1f3eb;
     border-color: #d1ede1;
 }
@@ -5542,7 +5542,7 @@ fieldset:disabled .btn {
 }
 
 .alert-info {
-    color: #116776;
+    color: #517AD3;
     background-color: #d2eef3;
     border-color: #bbe6ed;
 }
@@ -5913,20 +5913,20 @@ fieldset:disabled .btn {
 }
 
 .list-group-item-primary {
-    color: #3c615e;
+    color: #517ad3;
     background-color: #e0eceb;
 }
 
 .list-group-item-primary.list-group-item-action:hover,
 .list-group-item-primary.list-group-item-action:focus {
-    color: #3c615e;
+    color: #517ad3;
     background-color: #cad4d4;
 }
 
 .list-group-item-primary.list-group-item-action.active {
     color: #fff;
-    background-color: #3c615e;
-    border-color: #3c615e;
+    background-color: #517ad3;
+    border-color: #517ad3;
 }
 
 .list-group-item-secondary {
@@ -5947,37 +5947,37 @@ fieldset:disabled .btn {
 }
 
 .list-group-item-success {
-    color: #3e745e;
+    color: #517ad3;
     background-color: #e1f3eb;
 }
 
 .list-group-item-success.list-group-item-action:hover,
 .list-group-item-success.list-group-item-action:focus {
-    color: #3e745e;
+    color: #517ad3;
     background-color: #cbdbd4;
 }
 
 .list-group-item-success.list-group-item-action.active {
     color: #fff;
-    background-color: #3e745e;
-    border-color: #3e745e;
+    background-color: #517ad3;
+    border-color: #517ad3;
 }
 
 .list-group-item-info {
-    color: #116776;
+    color: #517AD3;
     background-color: #d2eef3;
 }
 
 .list-group-item-info.list-group-item-action:hover,
 .list-group-item-info.list-group-item-action:focus {
-    color: #116776;
+    color: #517AD3;
     background-color: #bdd6db;
 }
 
 .list-group-item-info.list-group-item-action.active {
     color: #fff;
-    background-color: #116776;
-    border-color: #116776;
+    background-color: #517AD3;
+    border-color: #517AD3;
 }
 
 .list-group-item-warning {
@@ -11566,11 +11566,13 @@ body {
 
 .contact-section {
     padding-top: 5rem;
+    color: #517ad3;
 }
 
 .contact-section .card {
     border: 0;
     border-bottom: 0.25rem solid #8c001a;
+    color: #517ad3;
 }
 
 .contact-section .card h4,
@@ -11579,16 +11581,19 @@ body {
     font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     text-transform: uppercase;
     letter-spacing: 0.0rem;
+    color: #517ad3;
 }
 
 .contact-section .card hr {
     border-color: #8c001a;
     border-width: 0.25rem;
     width: 3rem;
+    color: #517ad3;
 }
 
 .contact-section .social {
     margin-top: 5rem;
+    color: #517ad3;
 }
 
 .contact-section .social a {
@@ -11598,19 +11603,20 @@ body {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 100%;
     line-height: 3rem;
-    color: rgba(255, 255, 255, 0.3);
+    color: #517ad3;
 }
 
 .contact-section .social a:hover {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(72, 14, 206, 0.5);
 }
 
 .contact-section .social a:active {
-    color: #fff;
+    color: #517ad3;
 }
 
 .footer {
     padding: 5rem 0;
+    color: #517ad3;
 }
 
 .tagline {
