@@ -11470,7 +11470,7 @@ body {
     -webkit-text-fill-color: white;
     -webkit-background-clip: text;
     background-clip: text;
-    text-shadow:2px 2px 4px #000
+    text-shadow:2px 2px 4px rgb(109, 8, 8)
 }
 
 .masthead h2,
