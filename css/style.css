@@ -1,0 +1,120 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    background-color: #ffffff;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-brand img {
+    max-height: 36px;
+}
+
+.navbar-nav .nav-link {
+    color: #212529;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+/* Masthead */
+.masthead {
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.masthead-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Products Section */
+.products-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.featured-text {
+    padding: 40px;
+}
+
+.featured-text a {
+    margin-bottom: 20px;
+}
+
+/* Video Section */
+.video-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bg-video {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* Contact Section */
+.contact-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card {
+    background-color: #f8f9fa;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-body i {
+    font-size: 30px;
+    color: #517ad3;
+}
+
+.card-body h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card-body hr {
+    margin: 20px auto;
+    border-color: #517ad3;
+}
+
+/* Footer */
+.footer {
+    padding: 25px 0;
+    background-color: #000000;
+    color: #ffffff;
+}
