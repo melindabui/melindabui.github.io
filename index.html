@@ -1,230 +1,1797 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta name="p:domain_verify" content="345c7d5d11e1e9f802a8ce14e9a1dc8e" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-64QVG6Y8H2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+  <meta charset="UTF-8">
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
-        gtag('config', 'G-64QVG6Y8H2');
-    </script>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>ME&#128139&LIPS</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+  <title>ME-LIPS | The Journey</title>
+
+  <meta
+    name="description"
+    content="The story behind ME-LIPS — from an early color-changing lip balm idea to today's 4-in-1 Color-Adaptive Lip & Cheek Tint Balm in Pink Glow and Warm Red Glow."
+  >
+
+  <meta name="robots" content="index,follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ME-LIPS | The Journey">
+  <meta
+    property="og:description"
+    content="I kept the idea. I changed everything else. Discover the journey behind ME-LIPS."
+  >
+
+  <style>
+
+    :root {
+      --white: #ffffff;
+      --ivory: #fdfbf9;
+      --soft: #faf7f8;
+
+      --ink: #2c2629;
+      --muted: #786e72;
+
+      --wine: #6d3142;
+      --rose: #aa687a;
+      --gold: #a98a59;
+
+      --line: #eee7e9;
+
+      --max: 1120px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--white);
+      color: var(--ink);
+
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Helvetica Neue",
+        Arial,
+        sans-serif;
+
+      line-height: 1.68;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .wrap {
+      width: min(var(--max), calc(100% - 44px));
+      margin: auto;
+    }
+
+
+    /* --------------------------------
+       TOP MESSAGE
+    -------------------------------- */
+
+    .topline {
+      padding: 10px 16px;
+
+      text-align: center;
+
+      border-bottom: 1px solid var(--line);
+
+      font-size: 10px;
+      letter-spacing: .22em;
+      text-transform: uppercase;
+
+      color: #8d8085;
+
+      background: var(--white);
+    }
+
+
+    /* --------------------------------
+       NAVIGATION
+    -------------------------------- */
+
+    header {
+      position: sticky;
+      top: 0;
+
+      z-index: 50;
+
+      background: rgba(255,255,255,.97);
+
+      backdrop-filter: blur(12px);
+
+      border-bottom: 1px solid var(--line);
+    }
+
+    nav {
+      min-height: 78px;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      gap: 24px;
+    }
+
+    .logo {
+      font-family: Georgia, "Times New Roman", serif;
+
+      font-size: 25px;
+      letter-spacing: .17em;
+
+      transition: opacity .2s ease;
+    }
+
+    .logo:hover {
+      opacity: .6;
+    }
+
+    .navlinks {
+      display: flex;
+      align-items: center;
+
+      gap: 28px;
+
+      font-size: 11px;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+    }
+
+    .navlinks a {
+      transition: opacity .2s ease;
+    }
+
+    .navlinks a:hover {
+      opacity: .55;
+    }
+
+    .navlinks .official {
+      color: var(--wine);
+
+      border-bottom: 1px solid var(--wine);
+
+      padding-bottom: 3px;
+    }
+
+
+    /* --------------------------------
+       TYPOGRAPHY
+    -------------------------------- */
+
+    h1,
+    h2,
+    h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 400;
+
+      margin-top: 0;
+    }
+
+    h1 {
+      margin-bottom: 28px;
+
+      font-size: clamp(54px, 8vw, 96px);
+
+      line-height: .98;
+
+      letter-spacing: -.045em;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+
+      font-size: clamp(38px, 5vw, 58px);
+
+      line-height: 1.08;
+
+      letter-spacing: -.025em;
+    }
+
+    h3 {
+      font-size: 28px;
+
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: var(--muted);
+    }
+
+    .eyebrow {
+      margin-bottom: 23px;
+
+      color: var(--gold);
+
+      font-size: 10px;
+      font-weight: 700;
+
+      letter-spacing: .25em;
+
+      text-transform: uppercase;
+    }
+
+    .rule {
+      width: 54px;
+      height: 1px;
+
+      background: var(--gold);
+
+      margin: 32px auto;
+    }
+
+
+    /* --------------------------------
+       BUTTONS
+    -------------------------------- */
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+
+      gap: 12px;
+
+      margin-top: 32px;
+    }
+
+    .btn {
+      min-height: 52px;
+
+      padding: 0 28px;
+
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      font-size: 10px;
+      font-weight: 700;
+
+      letter-spacing: .16em;
+
+      text-transform: uppercase;
+
+      transition:
+        transform .2s ease,
+        box-shadow .2s ease;
+    }
+
+    .btn-dark {
+      background: var(--wine);
+      color: var(--white);
+    }
+
+    .btn-light {
+      background: var(--white);
+
+      color: var(--wine);
+
+      border: 1px solid #cfc1c5;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+
+      box-shadow:
+        0 12px 30px rgba(74, 41, 51, .08);
+    }
+
+
+    /* --------------------------------
+       HERO
+    -------------------------------- */
+
+    .hero {
+      min-height: 730px;
+
+      display: flex;
+      align-items: center;
+
+      background:
+        radial-gradient(
+          circle at 82% 52%,
+          rgba(248, 237, 240, .7),
+          transparent 31%
+        ),
+        var(--white);
+    }
+
+    .hero-inner {
+      max-width: 920px;
+
+      margin: auto;
+
+      text-align: center;
+
+      padding: 110px 0;
+    }
+
+    .hero .lead {
+      max-width: 720px;
+
+      margin: 0 auto;
+
+      font-size: 18px;
+    }
+
+    .hero .actions {
+      justify-content: center;
+    }
+
+    .small-line {
+      margin-top: 55px;
+
+      color: #978a8f;
+
+      font-size: 10px;
+
+      letter-spacing: .21em;
+
+      text-transform: uppercase;
+    }
+
+
+    /* --------------------------------
+       SECTIONS
+    -------------------------------- */
+
+    section {
+      padding: 112px 0;
+    }
+
+    .head {
+      max-width: 820px;
+
+      margin: 0 auto 60px;
+
+      text-align: center;
+    }
+
+    .head p {
+      font-size: 17px;
+    }
+
+
+    /* --------------------------------
+       BEGINNING
+    -------------------------------- */
+
+    .beginning {
+      background: var(--ivory);
+    }
+
+    .beginning-inner {
+      max-width: 860px;
+
+      margin: auto;
+
+      text-align: center;
+    }
+
+    .big-quote {
+      margin: 0 auto 25px;
+
+      font-family: Georgia, "Times New Roman", serif;
+
+      font-size: clamp(32px, 4.5vw, 49px);
+
+      line-height: 1.3;
+
+      color: var(--wine);
+    }
+
+    .beginning p {
+      font-size: 17px;
+    }
+
+
+    /* --------------------------------
+       WHY I KEPT GOING
+    -------------------------------- */
+
+    .why {
+      background: var(--white);
+    }
+
+    .why-grid {
+      display: grid;
+
+      grid-template-columns: .9fr 1.1fr;
+
+      gap: 80px;
+
+      align-items: center;
+    }
+
+    .statement {
+      min-height: 500px;
+
+      padding: 58px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      text-align: center;
+
+      border: 1px solid var(--line);
+
+      background: var(--soft);
+    }
+
+    .statement-text {
+      font-family: Georgia, "Times New Roman", serif;
+
+      font-size: 37px;
+
+      line-height: 1.34;
+
+      color: var(--wine);
+    }
+
+    .statement-text small {
+      display: block;
+
+      margin-top: 28px;
+
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Helvetica Neue",
+        Arial,
+        sans-serif;
+
+      font-size: 10px;
+
+      letter-spacing: .2em;
+
+      text-transform: uppercase;
+
+      color: var(--gold);
+    }
+
+    .why-copy p {
+      font-size: 17px;
+    }
+
+
+    /* --------------------------------
+       JOURNEY
+    -------------------------------- */
+
+    .journey {
+      background: var(--soft);
+    }
+
+    .timeline {
+      max-width: 920px;
+
+      margin: auto;
+    }
+
+    .moment {
+      display: grid;
+
+      grid-template-columns: 150px 1fr;
+
+      gap: 44px;
+
+      padding: 38px 0;
+
+      border-top: 1px solid var(--line);
+    }
+
+    .moment:last-child {
+      border-bottom: 1px solid var(--line);
+    }
+
+    .moment-label {
+      font-family: Georgia, "Times New Roman", serif;
+
+      font-size: 20px;
+
+      color: var(--gold);
+    }
+
+    .moment p {
+      margin: 0;
+    }
+
+    .journey .actions {
+      justify-content: center;
+
+      margin-top: 48px;
+    }
+
+
+    /* --------------------------------
+       THEN / NOW
+    -------------------------------- */
+
+    .then-now {
+      background: var(--white);
+    }
+
+    .compare {
+      display: grid;
+
+      grid-template-columns: 1fr 1fr;
+
+      gap: 1px;
+
+      border: 1px solid var(--line);
+
+      background: var(--line);
+    }
+
+    .panel {
+      min-height: 335px;
+
+      padding: 50px;
+
+      background: var(--white);
+    }
+
+    .panel.today {
+      background: #fffafb;
+    }
+
+    .tag {
+      font-size: 10px;
+      font-weight: 700;
+
+      letter-spacing: .2em;
+
+      text-transform: uppercase;
+
+      color: var(--gold);
+    }
+
+    .panel h3 {
+      margin: 12px 0 16px;
+
+      font-size: 32px;
+    }
+
+    .panel p {
+      margin: 0;
+    }
+
+
+    /* --------------------------------
+       VALUES
+    -------------------------------- */
+
+    .values {
+      background: #292124;
+
+      color: var(--white);
+    }
+
+    .values .head p {
+      color: #c9bec2;
+    }
+
+    .value-grid {
+      display: grid;
+
+      grid-template-columns: repeat(4, 1fr);
+
+      border-top: 1px solid #4c4145;
+      border-bottom: 1px solid #4c4145;
+    }
+
+    .value {
+      padding: 38px 24px;
+
+      text-align: center;
+
+      border-right: 1px solid #4c4145;
+    }
+
+    .value:last-child {
+      border-right: 0;
+    }
+
+    .value h3 {
+      margin-bottom: 8px;
+
+      font-size: 21px;
+    }
+
+    .value p {
+      margin: 0;
+
+      color: #c9bec2;
+
+      font-size: 13px;
+    }
+
+
+    /* --------------------------------
+       ME-LIPS TODAY
+    -------------------------------- */
+
+    .today-section {
+      background: var(--ivory);
+    }
+
+    .today-inner {
+      max-width: 900px;
+
+      margin: auto;
+
+      text-align: center;
+    }
+
+    .today-inner p {
+      max-width: 760px;
+
+      margin-left: auto;
+      margin-right: auto;
+
+      font-size: 17px;
+    }
+
+    .shades {
+      display: grid;
+
+      grid-template-columns: 1fr 1fr;
+
+      gap: 18px;
+
+      margin-top: 48px;
+
+      text-align: left;
+    }
+
+    .shade {
+      padding: 42px;
+
+      border: 1px solid var(--line);
+
+      background: var(--white);
+
+      transition:
+        transform .2s ease,
+        box-shadow .2s ease;
+    }
+
+    .shade:hover {
+      transform: translateY(-2px);
+
+      box-shadow:
+        0 18px 40px rgba(73, 38, 49, .07);
+    }
+
+    .shade h3 {
+      margin-bottom: 11px;
+
+      font-size: 30px;
+    }
+
+    .shade p {
+      margin-bottom: 0;
+    }
+
+
+    /* --------------------------------
+       FOUNDER
+    -------------------------------- */
+
+    .founder {
+      background: var(--white);
+
+      text-align: center;
+    }
+
+    .founder-inner {
+      max-width: 860px;
+
+      margin: auto;
+    }
+
+    .founder p {
+      font-size: 17px;
+    }
+
+    .signature {
+      margin-top: 30px;
+
+      color: var(--ink);
+
+      font-family: Georgia, "Times New Roman", serif;
+
+      font-size: 20px;
+    }
+
+    .founder .actions {
+      justify-content: center;
+    }
+
+
+    /* --------------------------------
+       FINAL
+    -------------------------------- */
+
+    .final {
+      background: var(--soft);
+
+      text-align: center;
+    }
+
+    .final-inner {
+      max-width: 850px;
+
+      margin: auto;
+    }
+
+    .final p {
+      font-size: 17px;
+    }
+
+    .final .actions {
+      justify-content: center;
+    }
+
+    .note {
+      max-width: 760px;
+
+      margin: 44px auto 0;
+
+      padding-top: 28px;
+
+      border-top: 1px solid var(--line);
+
+      font-size: 12px !important;
+
+      color: #9b9094 !important;
+    }
+
+
+    /* --------------------------------
+       FOOTER
+    -------------------------------- */
+
+    footer {
+      padding: 52px 0;
+
+      border-top: 1px solid var(--line);
+
+      background: var(--white);
+    }
+
+    .footer-grid {
+      display: grid;
+
+      grid-template-columns: 2fr 1fr;
+
+      gap: 48px;
+    }
+
+    .footer-logo {
+      font-family: Georgia, "Times New Roman", serif;
+
+      font-size: 23px;
+
+      letter-spacing: .15em;
+    }
+
+    footer p,
+    footer a {
+      color: var(--muted);
+
+      font-size: 13px;
+    }
+
+    .footer-links {
+      text-align: right;
+    }
+
+
+    /* --------------------------------
+       MOBILE
+    -------------------------------- */
+
+    @media (max-width: 850px) {
+
+      .navlinks a:not(.official) {
+        display: none;
+      }
+
+      .why-grid,
+      .compare {
+        grid-template-columns: 1fr;
+      }
+
+      .moment {
+        grid-template-columns: 1fr;
+
+        gap: 8px;
+      }
+
+      .value-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .value:nth-child(2) {
+        border-right: 0;
+      }
+
+      .value:nth-child(-n+2) {
+        border-bottom: 1px solid #4c4145;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-links {
+        text-align: left;
+      }
+
+      section {
+        padding: 82px 0;
+      }
+
+      .hero {
+        min-height: 650px;
+      }
+
+      .hero-inner {
+        padding: 90px 0;
+      }
+    }
+
+
+    @media (max-width: 550px) {
+
+      .wrap {
+        width: calc(100% - 30px);
+      }
+
+      nav {
+        min-height: 68px;
+      }
+
+      .logo {
+        font-size: 20px;
+      }
+
+      h1 {
+        font-size: 51px;
+      }
+
+      .hero .lead {
+        font-size: 16px;
+      }
+
+      .hero .actions {
+        display: grid;
+      }
+
+      .btn {
+        width: 100%;
+      }
+
+      .statement {
+        min-height: 380px;
+
+        padding: 38px 28px;
+      }
+
+      .statement-text {
+        font-size: 31px;
+      }
+
+      .panel {
+        padding: 35px 28px;
+      }
+
+      .value-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .value {
+        border-right: 0;
+        border-bottom: 1px solid #4c4145;
+      }
+
+      .value:last-child {
+        border-bottom: 0;
+      }
+
+      .shades {
+        grid-template-columns: 1fr;
+      }
+
+    }
+
+  </style>
 </head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-64QVG6Y8H2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-64QVG6Y8H2');
-</script>
-<script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
-<div class="trustedsite-trustmark" data-type="202" data-width="120" data-height="50"></div>
 
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-        <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="#page-top"></a>
-            <img src="assets/img/logo.png" alt="me lips logo with red lips" height="36">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu
-            <i class="fas fa-bars"></i>
-                </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#Products">Products</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#Video">Video</a></li>
-                </ul>
-            </div>
-        </div>
+<body>
+
+
+  <div class="topline">
+    ME-LIPS • The founder journey
+  </div>
+
+
+  <header>
+
+    <nav class="wrap">
+
+      <a
+        class="logo"
+        href="https://www.me-lips.com/"
+        target="_blank"
+        rel="noopener"
+      >
+        ME-LIPS
+      </a>
+
+
+      <div class="navlinks">
+
+        <a
+          href="https://www.me-lips.com/"
+          target="_blank"
+          rel="noopener"
+        >
+          Our Story
+        </a>
+
+        <a
+          href="https://www.me-lips.com/"
+          target="_blank"
+          rel="noopener"
+        >
+          Pink Glow
+        </a>
+
+        <a
+          href="https://www.me-lips.com/"
+          target="_blank"
+          rel="noopener"
+        >
+          Warm Red Glow
+        </a>
+
+        <a
+          class="official"
+          href="https://www.me-lips.com/"
+          target="_blank"
+          rel="noopener"
+        >
+          Visit ME-LIPS.com
+        </a>
+
+      </div>
+
     </nav>
 
-    <!-- Masthead-->
-    <header class="masthead text-center" id="About">
+  </header>
 
-        <div class="container px-4 px-lg-5 d-flex h-100 align-items-top justify-content-center">
-            <div class="d-flex justify-content-center">
-                <div class="container text-center">
-                    <h1 class="masthead-heading text-uppercase mb-0"><strong>ME&#128139;LIPS</strong></h1>
 
-                    <a class="btn btn-primary text-white" href="https://me-lips.com/"><strong>MINERAL SUNSCREEN LIP BUTTER BALM MADE WITH HYALURONIC ACID, BROAD SPECTRUM SPF 15☀️</strong></a>
-                    <p class="text-white bold align-items-center text-capitalize justify-content-center "><strong>LOVE YOUR LIPS&#128139;KISS THE WORLD BETTER&#x1f30e;</strong></p>
-                    <p class="text-white bold align-items-center justify-content-center">
-                        <Enriched>Welcome to the enchanting realm of Me-Lips, where we celebrate the beauty of your lips and strive to rekindle that radiant smile. Our mission is to infuse your mornings with love and joy. Say hello to our 4-in-1 Unique Pink Red Shade Lip Butter Balm, a specially crafted gem for those who adore the allure of pink and red lips. This lip balm stands as your ultimate multitasker, seamlessly serving as a lipstick, lip stain, lip gloss, and a hydrating sunscreen—all wrapped up in a single, delightful package. Infused with the goodness of hyaluronic acid and fortified with a robust 10% Zinc Oxide for SPF 15, our color-changing lip butter balm not only graces your lips with charming shades of pink and red but also stands as a protective shield against the sun. The enduring formula ensures your lips remain irresistibly soft, healthy, and plump. Enriched with a luxurious blend of lanolin, Shea butter, cocoa butter, tea tree oil, menthol crystals, hyaluronic acid, and vitamin E, our balm delivers intense hydration, soothing dry lips with every application. Witness the magical transformation as the shade evolves into a personalized pink-red hue, influenced by your pH levels and body temperature. Crafted with love and using all-natural ingredients, our lip butter balm guarantees continuous moisture for your lips. We take pride in creating our products with love in Canada. Embark on a journey to cherish your lips with Me-Lips! 💄 Made in Canada🍁🇨🇦 Enjoy💚🇦</strong>
-                    </p>
+  <main>
 
-                    <p class="text-white bold align-items-center text-uppercase justify-content-center ">
-                        <strong>100% All natural, responsible formula💚</strong>
-                    </p>
-                    <a class="btn btn-primary text-white" href="https://me-lips.com/">
-                        <strong>Enjoy Exclusive Early Access with Love ➡️💄</strong></a>
-                    <a class="btn btn-primary text-white" href="https://me-lips.com/">
-                        <strong>VISIT OUR ONLINE STORE-></strong></a>
-                </div>
-            </div>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+      <div class="wrap hero-inner">
+
+        <div class="eyebrow">
+          The story behind ME-LIPS
         </div>
-    </header>
-    <!-- Products-->
-    <section class="products-section bg-light " id="Products">
-        <div class="container px-4 px-lg-5 ">
-            <!-- Featured Project Row-->
-            <div class="row gx-0 mb-4 mb-lg-5 align-items-center ">
-                <div class="col-xl-8 col-lg-7 "><img class="img-fluid mb-3 mb-lg-0 " src="assets/img/original.jpg " alt="7 face lips model wearing original lip butter balm by Me-Lips" /></div>
-                <div class="col-xl-4 col-lg-5 ">
-                    <div class="featured-text text-center text-lg-left ">
-                        <a class="btn btn-primary text-white" href="https://me-lips.com/">Original White SPF 15 Lip Balm☀️</a>
-                        <a class="btn btn-primary text-white" href="https://me-lips.com/">Original mineral sunscreen lip butter balm</a>
-                        <p class="text-black-75 mb-0">The only mineral sunscreen lip butter balm you will ever need! It's the butter & balm that cares to make your lips kissable again. Made of all natural ingredients to help keep your
-                            lips soft & smooth at all times. Enjoy🍁🕊️
-                        </p> 
-                    </div>
-                </div>
-            </div>
-            <!-- Project One Row-->
-            <div class="row gx-0 mb-4 mb-lg-5 align-items-center ">
-                <div class="col-xl-8 col-lg-7 "><img class="img-fluid mb-3 mb-lg-0 " src="assets/img/demo-image-01.jpg " alt="5 face lips model wearing 4in1 unique pink red shade #1 by Me-Lips" /></div>
-                <div class="col-xl-4 col-lg-5 ">
-                    <div class="featured-text text-center text-lg-left ">
-                        <a class="btn btn-primary text-white" href="https://me-lips.com/">4-in-1 Unique Pink Red Shade #1 & Shade #2💄☀️</a>
-                        <a class="btn btn-primary text-white" href="https://me-lips.com/">Color Changing Mineral Sunscreen Lip Butter Balm made with Hyaluronic Acid, SPF 15</a>
-                        <p class="text-black-75 mb-0 ">4-in-1 Formula: Act as a lip stick, lip stain, lip gloss & ultra hydrating mineral sunscreen lip balm.</p>
-                          <p class="text-black-75 mb-0 ">The next-generation color changing mineral sunscreen lip butter balm. Formulated to apply clear & react with the lips chemistry to
-                            create the perfect shade of pink - from light pink to vibrant pink-red lips. Enjoy🍁🕊️</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row gx-0 mb-4 mb-lg-5 align-items-center ">
-                <div class="col-xl-8 col-lg-7 "><img class="img-fluid mb-3 mb-lg-0 " src="assets/img/demo-image-02.jpg " alt="5 face lips model wearing 4in1 unique pink red shade #2 by Me-Lips" /></div>
-                <div class="col-xl-4 col-lg-5 ">
-                    <div class="featured-text text-center text-lg-left ">
-                        <a class="btn btn-primary text-white" href="https://me-lips.com/">4-in-1 Unique Pink Red Shade #2 made with Hyaluronic Acid, broad spectrum SPF 15☀️</a>
-                        <a class="btn btn-primary text-white" href="https://me-lips.com/">Color Changing Mineral Sunscreen Lip Butter Balm made with Hyaluronic Acid, SPF 15 & SPF 50</a>
-                        <p class="text-black-75 mb-0 ">4-in-1 Formula: Act as a lip stick, lip stain, lip gloss & ultra hydrating mineral sunscreen lip balm.
-                        </p>
-                        <p class="text-black-75 mb-0 "> Make a statement with your lips. Think pink, think red & add color to your lips. For more video experience, visit us on Youtube, Instagram,
-                            Pinterest & Tiktok today! Enjoy 🍁🕊️
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Project Two Row-->
-            <div class="row gx-0 mb-4 mb-lg-5 align-items-center ">
-                <div class="col-xl-8 col-lg-7 "><img class="img-fluid mb-3 mb-lg-0 " src="assets/img/demo-image-03.JPG " alt="12 2in1 double ended lip brush with cap 
-                in red, red-gold gradient, gold, black, purple, black-silver gradient color" /></div>
-                <div class="col-xl-4 col-lg-5 ">
-                    <div class="featured-text text-center text-lg-left ">
-                        <a class="btn btn-primary text-white" href="https://me-lips.com/">2-in-1 Double Ended Lip Brush with Cap-> </a>
-                        <a class="btn btn-primary text-white" href="https://me-lips.com/">Eco-friendly, made of recycle aluminum & dense vegan synthetic bristles-> </a>
-                        <p class="text-black-75 mb-0 ">Act as a lip brush & lip out-liner (with retractable/auto seal cap) to perfectly outlined & filled in your lips like an expert. For all skin types & lips. Made of the highest quality. A must have to apply 4in1 Unique Pink Red shade!
-                            For more video-experience, visit us on
-                            <a href="https://youtu.be/dSR1eWxppM0">Youtube</a>,
-                            <a href="https://www.instagram.com/reel/CWcjEsQgAAO/?utm_source=ig_web_copy_link">Instagram</a>,
-                            <a href="https://pin.it/5TAemrh">Pinterest</a> &
-                            <a href="https://www.tiktok.com/@melipsbutterbalmspf50/video/7098035928928619782">Tiktok</a> today.</p>
-                        <a class="btn btn-primary text-white" href="https://me-lips.com/">
-                            VISIT OUR ONLINE STORE</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- video-->
-    <section class="video-section bg-light " id="Video">
-        <div class="container px-4 px-lg-5  align-items-center">
-            <video class="bg-video " autoplay="autoplay " muted="muted " loop="loop " width="1000 " height="350 " autoplay loop preload="auto " controls=" ">
-                    <source src="assets/bg.mp4 " type="video/mp4 ">
-                    <object data="assets/bg.mp4 " width="1000 " height="350 " controls=" ">
-                    <embed src="assets/bg.mp4 " width="1000 " height="350 " controls=" ">
-                    </object><source src="assets/mp4/bg.mp4 " type="video/mp4 " /></video>
+
+        <h1>
+          I kept the idea.<br>
+          I changed everything else.
+        </h1>
+
+        <div class="rule"></div>
+
+        <p class="lead">
+          ME-LIPS was not created in one moment.
+          It grew through years of experimenting,
+          refining, rebuilding and believing that
+          one simple idea could become something better.
+        </p>
+
+
+        <div class="actions">
+
+          <a
+            class="btn btn-dark"
+            href="https://www.me-lips.com/"
+            target="_blank"
+            rel="noopener"
+          >
+            Discover ME-LIPS Today
+          </a>
+
+
+          <a
+            class="btn btn-light"
+            href="https://www.me-lips.com/"
+            target="_blank"
+            rel="noopener"
+          >
+            Visit the Official Website
+          </a>
 
         </div>
+
+
+        <div class="small-line">
+          Pink Glow • Warm Red Glow • Made in Canada
+        </div>
+
+      </div>
+
     </section>
 
-    <!-- Contact-->
-    <section class="contact-section bg-black " id="Contact">
-        <div class="container px-4 px-lg-5 ">
-            <div class="row gx-4 gx-lg-5 ">
-                <div class="col-md-4 mb-3 mb-md-0 ">
-                    <div class="card py-4 h-100 ">
-                        <div class="card-body text-center ">
-                            <i class="fas fa-map-marked-alt style=" font-size:30px;color:#517ad3 ">
-                            </i>
-                            <h4 class="text-uppercase m-0 ">Address</h4>
-                            <hr class="my-4 mx-auto " />
-                            <div class="small text-black-50 ">
-                            <a href="https://goo.gl/maps/jrVTv1hSsFxmXR1r6 " >1203-33 UNIVERSITY AVE. TORONTO ON. CANADA M5J-2S7</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-3 mb-md-0 ">
-                <div class="card py-4 h-100 ">
-                    <div class="card-body text-center ">
-                        <i class="fas fa-envelope style=" font-size:30px;color:#517ad3 "></i>
-                            <h4 class="text-uppercase m-0 ">Email</h4>
-                            <hr class="my-4 mx-auto " />
-                            <div class="small text-black-50 "><a href="www.gmail.com">INFO@ME-lIPS.com</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3 mb-md-0 ">
-                    <div class="card py-4 h-100 ">
-                        <div class="card-body text-center ">
-                            <i class="fas fa-mobile-alt " style="font-size:30px;color:#517ad3 "></i>
-                            <h4 class="text-uppercase m-0 ">Visit Our Online Store</h4>
-                            <hr class="my-4 mx-auto " />
-                            <div class="small text-black-50 "><a href="https://me-lips.com/">ME-LIPS</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="social d-flex justify-content-center ">
-                <a class="mx-2 " href="https://me-lips.com/"><i class="fab fa-shopify "></i></a>
-                <a class="mx-2 " href="https://www.tiktok.com/@melipsbutterbalmspf15"></i></a>
-                <a class="mx-2 " href="https://www.instagram.com/melipsbutterbalmspf15/"></i></a>
-                <a class="mx-2 " href="https://www.youtube.com/ @MeLipsbutterbalmSPF15"></i></a>
-                <a class="mx-2 " href="https://www.pinterest.ca/MeLipsButterBalmSPF15/"></i></a>
-                <a class="mx-2 " href="#! "><i class="fab fa-cc-mastercard "></i></a>
-                <a class="mx-2 " href="#! "><i class="fab fa-cc-visa "></i></a>
-                <a class="mx-2 " href="#! "><i class="fab fa-cc-paypal "></i></a>
-            </div>
+
+
+    <!-- BEGINNING -->
+
+    <section class="beginning">
+
+      <div class="wrap beginning-inner">
+
+        <div class="eyebrow">
+          The Beginning
         </div>
+
+        <div class="big-quote">
+          “What if lip color could feel more personal?”
+        </div>
+
+        <div class="rule"></div>
+
+        <p>
+          That question became the beginning of ME-LIPS.
+          The earliest concept explored color-changing lip balm —
+          a product that could care for the lips while developing
+          a pink-red tint that felt different from one person to another.
+        </p>
+
+        <p>
+          It was not yet the ME-LIPS you see today.
+          It was the first chapter:
+          an experiment, a direction and a reason to keep building.
+        </p>
+
+
+        <div class="actions" style="justify-content:center;">
+
+          <a
+            class="btn btn-dark"
+            href="https://www.me-lips.com/"
+            target="_blank"
+            rel="noopener"
+          >
+            See What It Became
+          </a>
+
+        </div>
+
+      </div>
+
     </section>
-    <!-- Footer-->
-    <footer class="footer bg-black small text-center text-white-50 ">
-        <div class="container px-4 px-lg-5 ">&copy; 2024, Me-Lips </div>
-    </footer>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js "></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js "></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js "></script>
+
+
+
+    <!-- WHY -->
+
+    <section class="why">
+
+      <div class="wrap why-grid">
+
+        <div class="statement">
+
+          <div class="statement-text">
+
+            The first version<br>
+            was never meant<br>
+            to be the last.
+
+            <small>
+              Learning by building
+            </small>
+
+          </div>
+
+        </div>
+
+
+        <div class="why-copy">
+
+          <div class="eyebrow">
+            Why I Kept Going
+          </div>
+
+          <h2>
+            I wanted the idea to do more.
+          </h2>
+
+          <p>
+            The original color-changing balm proved something
+            important to me: personalized color could be playful,
+            useful and beautiful.
+          </p>
+
+          <p>
+            But I kept thinking about what the product could become.
+          </p>
+
+          <p>
+            Could it move beyond the lips?
+            Could one product simplify a routine?
+            Could the color be buildable instead of fixed?
+            Could two shades create more possibilities?
+          </p>
+
+          <p>
+            Those questions slowly changed the product —
+            without changing the heart of the idea.
+          </p>
+
+
+          <a
+            class="btn btn-dark"
+            href="https://www.me-lips.com/"
+            target="_blank"
+            rel="noopener"
+          >
+            Explore ME-LIPS
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- JOURNEY -->
+
+    <section class="journey">
+
+      <div class="wrap">
+
+        <div class="head">
+
+          <div class="eyebrow">
+            The Journey
+          </div>
+
+          <h2>
+            One idea.<br>
+            Years of refinement.
+          </h2>
+
+          <p>
+            Every version taught me something about
+            what ME-LIPS should become —
+            and what it should leave behind.
+          </p>
+
+        </div>
+
+
+        <div class="timeline">
+
+
+          <div class="moment">
+
+            <div class="moment-label">
+              The idea
+            </div>
+
+            <div>
+
+              <h3>
+                Color that feels personal
+              </h3>
+
+              <p>
+                The first concept centered on a color-changing
+                lip balm and the belief that lip color did not
+                have to look identical on everyone.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="moment">
+
+            <div class="moment-label">
+              The learning
+            </div>
+
+            <div>
+
+              <h3>
+                Formula, packaging and countless decisions
+              </h3>
+
+              <p>
+                Developing a beauty product meant revisiting
+                texture, color, packaging, application,
+                positioning and manufacturing again and again.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="moment">
+
+            <div class="moment-label">
+              The evolution
+            </div>
+
+            <div>
+
+              <h3>
+                Beyond lip balm
+              </h3>
+
+              <p>
+                The concept grew into buildable color for
+                lips and cheeks — designed to fit into a simpler,
+                more flexible beauty routine.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="moment">
+
+            <div class="moment-label">
+              Today
+            </div>
+
+            <div>
+
+              <h3>
+                Pink Glow + Warm Red Glow
+              </h3>
+
+              <p>
+                ME-LIPS now centers on two shades and a
+                4-in-1 Color-Adaptive Lip &amp; Cheek Tint Balm
+                made in Canada.
+              </p>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+        <div class="actions">
+
+          <a
+            class="btn btn-dark"
+            href="https://www.me-lips.com/"
+            target="_blank"
+            rel="noopener"
+          >
+            See Today's ME-LIPS
+          </a>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- THEN NOW -->
+
+    <section class="then-now">
+
+      <div class="wrap">
+
+
+        <div class="head">
+
+          <div class="eyebrow">
+            Then &amp; Now
+          </div>
+
+          <h2>
+            I kept the idea.<br>
+            I changed the product.
+          </h2>
+
+        </div>
+
+
+        <div class="compare">
+
+
+          <article class="panel">
+
+            <div class="tag">
+              Then
+            </div>
+
+            <h3>
+              Color-changing lip balm
+            </h3>
+
+            <p>
+              Early pink-red color concepts,
+              lip-care ideas, earlier formulations
+              and the first steps toward personalized beauty.
+            </p>
+
+          </article>
+
+
+          <article class="panel today">
+
+            <div class="tag">
+              Now
+            </div>
+
+            <h3>
+              ME-LIPS
+            </h3>
+
+            <p>
+              Pink Glow + Warm Red Glow.
+              A 4-in-1 Color-Adaptive Lip &amp; Cheek Tint Balm
+              designed to be buildable, multi-use
+              and uniquely yours.
+            </p>
+
+
+            <a
+              class="btn btn-dark"
+              href="https://www.me-lips.com/"
+              target="_blank"
+              rel="noopener"
+            >
+              Shop Today's ME-LIPS
+            </a>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- VALUES -->
+
+    <section class="values">
+
+      <div class="wrap">
+
+
+        <div class="head">
+
+          <div class="eyebrow">
+            What Never Changed
+          </div>
+
+          <h2>
+            The heart of ME-LIPS.
+          </h2>
+
+          <p>
+            The product evolved,
+            but four ideas stayed with me through every version.
+          </p>
+
+        </div>
+
+
+        <div class="value-grid">
+
+
+          <div class="value">
+
+            <h3>
+              Personal
+            </h3>
+
+            <p>
+              Beauty should leave room for individuality.
+            </p>
+
+          </div>
+
+
+          <div class="value">
+
+            <h3>
+              Simple
+            </h3>
+
+            <p>
+              One thoughtfully designed product can do more.
+            </p>
+
+          </div>
+
+
+          <div class="value">
+
+            <h3>
+              Buildable
+            </h3>
+
+            <p>
+              Start soft, add more and make the final look your own.
+            </p>
+
+          </div>
+
+
+          <div class="value">
+
+            <h3>
+              Made in Canada
+            </h3>
+
+            <p>
+              The next chapter of the journey is proudly made in Canada.
+            </p>
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- TODAY -->
+
+    <section class="today-section">
+
+      <div class="wrap today-inner">
+
+
+        <div class="eyebrow">
+          ME-LIPS Today
+        </div>
+
+
+        <h2>
+          Two shades.<br>
+          One evolving idea.
+        </h2>
+
+
+        <p>
+          Today, ME-LIPS is focused on a
+          4-in-1 Color-Adaptive Lip &amp; Cheek Tint Balm.
+        </p>
+
+
+        <p>
+          Each shade can be worn alone,
+          layered for more intensity,
+          or combined to create a customized look.
+        </p>
+
+
+        <div class="shades">
+
+
+          <a
+            class="shade"
+            href="https://www.me-lips.com/"
+            target="_blank"
+            rel="noopener"
+          >
+
+            <div class="tag">
+              Cool-toned glow
+            </div>
+
+            <h3>
+              Pink Glow
+            </h3>
+
+            <p>
+              A fresh buildable pink-red glow
+              designed to become uniquely yours.
+            </p>
+
+          </a>
+
+
+          <a
+            class="shade"
+            href="https://www.me-lips.com/"
+            target="_blank"
+            rel="noopener"
+          >
+
+            <div class="tag">
+              Warm-toned glow
+            </div>
+
+            <h3>
+              Warm Red Glow
+            </h3>
+
+            <p>
+              A warmer red-pink glow
+              that can be worn softly or layered bolder.
+            </p>
+
+          </a>
+
+
+        </div>
+
+
+        <div class="actions" style="justify-content:center;">
+
+          <a
+            class="btn btn-dark"
+            href="https://www.me-lips.com/"
+            target="_blank"
+            rel="noopener"
+          >
+            Discover Pink Glow + Warm Red Glow
+          </a>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- FOUNDER -->
+
+    <section class="founder">
+
+      <div class="wrap founder-inner">
+
+
+        <div class="eyebrow">
+          From the Founder
+        </div>
+
+
+        <h2>
+          Building slowly does not mean standing still.
+        </h2>
+
+
+        <div class="rule"></div>
+
+
+        <p>
+          ME-LIPS has been a long-term,
+          self-funded project built alongside work,
+          life and everything in between.
+        </p>
+
+
+        <p>
+          The journey was not a straight line.
+          There were pauses, reformulations,
+          new manufacturers, new packaging
+          and many decisions that sent the product
+          in a different direction.
+        </p>
+
+
+        <p>
+          But I kept coming back to the same idea:
+          create something simple,
+          personal and useful —
+          then keep improving it until
+          it feels ready to carry the ME-LIPS name.
+        </p>
+
+
+        <div class="signature">
+          — Melinda Bui, Founder of ME-LIPS
+        </div>
+
+
+        <div class="actions">
+
+          <a
+            class="btn btn-dark"
+            href="https://www.me-lips.com/"
+            target="_blank"
+            rel="noopener"
+          >
+            Visit ME-LIPS Today
+          </a>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- FINAL -->
+
+    <section class="final">
+
+      <div class="wrap final-inner">
+
+
+        <div class="eyebrow">
+          The Next Chapter
+        </div>
+
+
+        <h2>
+          The journey lives here.<br>
+          ME-LIPS lives at ME-LIPS.com.
+        </h2>
+
+
+        <p>
+          This page preserves the journey behind the brand.
+          For today's products, application guidance,
+          ingredients, videos and launch information,
+          continue to the official ME-LIPS website.
+        </p>
+
+
+        <div class="actions">
+
+          <a
+            class="btn btn-dark"
+            href="https://www.me-lips.com/"
+            target="_blank"
+            rel="noopener"
+          >
+            Continue to ME-LIPS.com
+          </a>
+
+        </div>
+
+
+        <p class="note">
+          Historical formulations, SPF claims,
+          earlier shade names and descriptions
+          from older versions of this GitHub Pages site
+          refer to previous products and do not describe
+          today's ME-LIPS products.
+          Please use ME-LIPS.com for current product information.
+        </p>
+
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+  <footer>
+
+    <div class="wrap footer-grid">
+
+
+      <div>
+
+        <a
+          class="footer-logo"
+          href="https://www.me-lips.com/"
+          target="_blank"
+          rel="noopener"
+        >
+          ME-LIPS
+        </a>
+
+        <p>
+          The founder journey from an early
+          color-changing lip balm idea
+          to today's ME-LIPS.
+        </p>
+
+        <p>
+          © 2026 ME-LIPS. All rights reserved.
+        </p>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <a
+          href="https://www.me-lips.com/"
+          target="_blank"
+          rel="noopener"
+        >
+          Official ME-LIPS Website
+        </a>
+
+        <br>
+
+        <a
+          href="https://www.me-lips.com/"
+          target="_blank"
+          rel="noopener"
+        >
+          Pink Glow
+        </a>
+
+        <br>
+
+        <a
+          href="https://www.me-lips.com/"
+          target="_blank"
+          rel="noopener"
+        >
+          Warm Red Glow
+        </a>
+
+        <br>
+
+        <a
+          href="https://www.me-lips.com/"
+          target="_blank"
+          rel="noopener"
+        >
+          Shop ME-LIPS
+        </a>
+
+      </div>
+
+
+    </div>
+
+  </footer>
+
+
 </body>
-
 </html>
