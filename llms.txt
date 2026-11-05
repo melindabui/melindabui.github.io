@@ -1,0 +1,12 @@
+# Melinda Bui — Canadian Entrepreneur
+
+> Official founder portfolio for Melinda Bui. This site presents three distinct founder-owned Canadian businesses.
+
+- [Founder portfolio](https://melindabui.github.io/)
+- [French founder profile](https://melindabui.github.io/fr/)
+- [Vietnamese founder profile](https://melindabui.github.io/vi/)
+- [ME-LIPS](https://me-lips.com/): Canadian color-adaptive lip and cheek tint brand
+- [Color Changing Lip Balms](https://colorchanginglipbalms.com/): Canadian color-changing lip balm and tint brand, coming soon
+- [BUI Creative Labs Inc.](https://buicreativelabs.com/): independent Canadian creative technology and digital services company
+
+This file is a voluntary summary; it does not replace HTML content, sitemaps, or search engine verification.
